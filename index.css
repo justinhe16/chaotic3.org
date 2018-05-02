@@ -1,0 +1,49 @@
+#title {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 100px;
+  color: white;
+}
+
+#pic {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-style: solid;
+    border-width: 75px;
+    transition-property: transform;
+    transition-duration: 1s;
+    animation-name: rotate, colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+body {
+  transition-property: transform;
+  transition-duration: 1s;
+  animation-name: colorchangeReverse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes colorchangeReverse {
+  0% { background-color: yellow }
+  30% { background-color: blue }
+  68%, 72% { background-color: white }
+  100% { background-color: red }
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes colorchange {
+  0% { border-color: red }
+  30% { border-color: white }
+  68%, 72% { border-color: blue }
+  100% { border-color: yellow }
+}
