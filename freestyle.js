@@ -6,11 +6,13 @@ $(document).ready(function() {
   "Caroline","JJ","Brandon T.","Nick","Diandra","Lexi","Julia","Alex","Angela","Brittany","Kyle",
   "Marissa", "Wayne","Conor","Justin", "NSFW Karl", "Kid Karl"]
   shapes = ["sad","happy","sexy","smooth","seductive","emotional","nostalgic","scared","angry",
-  "disgusted","surprised","shameful","loving","cutesy"]
+  "disgusted","surprised","shameful","loving","cutesy","sassy","a whole snack","a kpop star"]
   textures = ["Deepthroat","Sicko Mode","Skin", "Kream","Superstar","Mission Statement", "I Like It",
   "Krippy Kush", "Missed My Exit","Bounce Back","BlackJack","Wild Thoughts","Lil Bit (K Camp Remix)",
   "You (AlexTbh)", "Just A Picture", "Lotus Eater","Lights On", "Still Feelin' It", "Pressed (Tyga)",
-  "Down"]
+  "Down","SloLove","Hope You Do","Killing Me (iKON)","Sex You (Bando Jonez)", "Panoramic", "Versace On The Floor",
+  "Red Mercedes","Yeezy Solar","Neighbors Know My Name", "The Boys (Nicki Minaj)","Young Jeezy RIP Remix",
+  "Friends Theme Song", "Office Theme Song", "Only One (Kanye)"]
   $('#concept').html(concepts[Random.integer(0,concepts.length-1)(engine)]);
   $('#shape').html(shapes[Random.integer(0,shapes.length-1)(engine)]);
   $('#texture').html(textures[Random.integer(0,textures.length-1)(engine)]);
