@@ -1,2 +1,2 @@
-# chaotic3.org
-Chaotic 3 -- USC's premier Urban Dance Team -- finally has its own website.
+# freestyle_ideas
+A automated, stylish generator for dancers looking for new freestyle concepts to try.
