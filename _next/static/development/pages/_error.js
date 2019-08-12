@@ -6154,7 +6154,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_5221b1bb99e58c949d5e
 /***/ (function(module, exports, __webpack_require__) {
 
 __NEXT_REGISTER_PAGE('/_error', function() {
-module.exports = __webpack_require__(/*! /Users/wayneyu/Desktop/Projects/web/chaotic3.org/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__(/*! /Users/wayneyu/Desktop/Projects/web/chaotic3_next/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
 
 return { page: module.exports.default }});
 
