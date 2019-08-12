@@ -340,7 +340,7 @@ function (_React$Component) {
           lineNumber: 20
         },
         __self: this
-      }, "second best"), " dance team based at the University of Southern California. Originally founded as an artistic outlet for members of the Chinese American Student Association, Chaotic 3 has evolved into a well-known team that strives to foster the passion for dance from new and veteran dancers alike. Through exhibition and competition performances on USC's campus and around Southern California such as Maxt Out, Prelude aka The Bridge, Urban Street Jam and All Cal, they hope to continue to be influenced by the best while maintaining the spirit that is Chaotic 3."), close), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+      }, "oldest"), " dance team based at the University of Southern California, with 20+ years of history. Originally founded as an artistic outlet for members of the Chinese American Student Association, Chaotic 3 has evolved into a well-known team that strives to foster the passion for dance from new and veteran dancers alike. Through exhibition and competition performances on USC's campus and around Southern California such as Maxt Out, Prelude aka The Bridge, Urban Street Jam and All Cal, they hope to continue to be influenced by the best while maintaining the spirit that is Chaotic 3."), close), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         id: "awards",
         className: "".concat(this.props.article === 'awards' ? 'active' : '', " ").concat(this.props.articleTimeout ? 'timeout' : ''),
         style: {
